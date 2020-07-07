@@ -44,6 +44,20 @@
         letter-spacing: 5px;
     
     }
+    #title .left .content .bbutton{
+        margin-left: 0;
+        
+        margin-bottom: 2em;
+    }
+    #title .left .content button{
+        margin-right: 1em;
+       
+        height: 3em;
+        width: 8em;
+        padding: 0 0.5em;
+        
+        
+    }
     #our-work .left .content i, .left .content .text{
         display: none;
     }
@@ -53,29 +67,40 @@
         margin-bottom: 3em;
         text-align: justify;
     }
+    .right .gallery .grid img{
+        height: 100%;
+        width: 100%;
+    }
+    .right .gallery .grid{
+        grid-gap: 10px;
+        padding-left: 1em;
+
+        
+    }
     .right .gallery .grid .one{
-        height: 300px;
-        width: 420px;
+
+        height: 200px;
+        width: 310px;
     }
     .right .gallery .grid .two{
-        height: 300px;
-        width: 200px;
+        height: 200px;
+        width: 150px;
     }
     .right .gallery .grid .three{
-        height: 300px;
-        width: 200px;
+        height: 200px;
+        width: 150px;
     }
     .right .gallery .grid .four{
-        height: 300px;
-        width: 420px;
+        height: 200px;
+        width: 310px;
     }
     #contact .left .content .details{
-        margin: 1em 1em 1em 3em;
-        font-size: 1.2;
+        margin: 1em;
+        font-size: 1em;
         padding-bottom: 2em;
     }
     #contact .left .content .details h4{
-        font-size: 1.3em;
+        font-size: 1.2em;
         letter-spacing: 2px;
         margin: 0;
         
