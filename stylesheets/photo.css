@@ -25,26 +25,30 @@ body, html{
     height: 100vh;
 }
 #nature .left, #potrait .left, #wedding .left, #contact .left{
-    height: 100%;
-    padding-bottom: 4em;
+    height: 1200px;
+    padding-bottom: 22em;
 }
 #nature .right, #potrait .right, #wedding .right, #contact .right{
-    height: 100%;
+    height: 1200px;
 }
 .left .content{
-    margin-left: 15em;
-    margin-top: 10em;
-    margin-right: 2em;
+    margin-left: 10%;
+    margin-top: 8em;
+    margin-right: 5em;
 }
 .left .content h1{
+    font-size: 3.5em;
+}
+#our-work .left .content h1{
     font-size: 5em;
 }
 #title .left .content{
-    margin-left: 15em;
-    margin-top: 12em;
+    margin-left: 10%;
+    margin-top: 10em;
+    margin-right: 5em;
 }
 #title .left .content h1{
-    font-size: 8em;
+    font-size: 6em;
     margin-bottom: 0;
     letter-spacing: 1px;
 
@@ -61,14 +65,14 @@ body, html{
     margin-bottom: 2em;
 }
 #title .left .content button{
-    margin-right: 2em;
+    margin-right: 1em;
     border: 2px solid orange;
     border-radius: 2em;
-    height: 4em;
-    width: 10em;
+    height: 3em;
+    width: 35%;
     background-color: black;
     color: white;
-    padding: 0 0.5em;
+    padding: 0.1em 1em;
     font-weight: bold;
     transition: all 0.3s;
     
@@ -92,7 +96,8 @@ body, html{
 }
 #our-work .left i{
     color: white;
-    font-size: 4.5em;
+    
+    font-size: 4em;
     padding-left: 2em;
 }
 #our-work .right .gallery img{
@@ -107,17 +112,17 @@ body, html{
     text-align: justify;
 }
  .left .content .text{
-    margin: 15em 3em 15em -2em;
+    margin: 15em 1em 15em 1em;
     
 }
  .left .content .text p{
-    margin-left: -2em;
+    
     margin-bottom: 10em;
-    line-height: 2em;
+    line-height: 1em;
     
 }
 .right .gallery{
-    margin: 10em 5em 0 5em;
+    margin: 10em 8% 0 8%;
     
 }
 
@@ -135,29 +140,29 @@ body, html{
 .right .gallery .grid .one{
     grid-column: 1/3;
     grid-row: 1;
-    height: 400px;
-    width: 620px;
+    height: 300px;
+    width: 520px;
 }
 .right .gallery .grid .two{
     grid-column: 1;
     grid-row: 2;
-    height: 400px;
-    width: 300px;
+    height: 300px;
+    width: 250px;
 }
 .right .gallery .grid .three{
     grid-column: 2;
     grid-row: 2;
-    height: 400px;
-    width: 300px;
+    height: 300px;
+    width: 250px;
 }
 .right .gallery .grid .four{
     grid-column: 1/3;
     grid-row: 3;
     height: 300px;
-    width: 620px;
+    width: 520px;
 }
 #contact .left .content .details{
-    margin: 1em 1em 1em 8em;
+    margin: 1em 1em 1em 12%;
     font-size: 1.2;
     padding-bottom: 2em;
 }
@@ -208,3 +213,29 @@ footer{
     background-color:#272829;
 }
 
+@media screen and (min-width: 770px) and (max-width: 1200px) {
+    .right .gallery .grid .one{
+
+        height: 200px;
+        width: 310px;
+    }
+    .right .gallery .grid .two{
+        height: 200px;
+        width: 150px;
+    }
+    .right .gallery .grid .three{
+        height: 200px;
+        width: 150px;
+    }
+    .right .gallery .grid .four{
+        height: 200px;
+        width: 310px;
+    }
+    .right .gallery{
+        margin: 10em 10% 0 10%;
+        
+    }
+    #nature .left, #potrait .left, #wedding .left, #contact .left{
+        padding-bottom: 2em;
+    }
+}

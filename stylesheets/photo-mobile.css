@@ -16,7 +16,7 @@
         height: 50vh;
     }
     .left .content{
-        margin-left: 2em;
+        margin-left: 4em;
         margin-top: 3em;
     }
     .right .gallery{
@@ -31,15 +31,15 @@
         height: 50%;
     }
     
-    .left .content h1{
+    .left .content h1, #our-work .left .content h1{
         font-size: 3em;
     }
     #title .left .content{
         margin-left: 4em;
-        margin-top: 3.5em;
+        margin-top: 3em;
     }
     #title .left .content h1{
-        font-size: 4.5em;
+        font-size: 3.9em;
         margin-bottom: 0;
         letter-spacing: 5px;
     
@@ -47,7 +47,7 @@
     #title .left .content .bbutton{
         margin-left: 0;
         
-        margin-bottom: 2em;
+        
     }
     #title .left .content button{
         margin-right: 1em;
@@ -73,7 +73,7 @@
     }
     .right .gallery .grid{
         grid-gap: 10px;
-        padding-left: 1em;
+        padding-left: 0.5em;
 
         
     }
